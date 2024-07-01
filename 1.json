@@ -1,0 +1,15 @@
+{
+  "model_num_block": {
+    "_type": "choice",
+    "_value": [17,23,29,31,37,41,47,53]
+  },
+  "model_num_grow_ch": {
+    "_type" : "choice",
+    "_value" : [20,24,28,32,36,40,44,48]
+  },
+  "model_num_feat":
+  {
+    "_type": "choice",
+    "_value": [48,64,96,128,160]
+  }
+}

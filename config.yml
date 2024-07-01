@@ -1,0 +1,14 @@
+experimentName: segmentation
+trialConcurrency: 1
+maxExperimentDuration: 144h
+maxTrialNumber: 100
+searchSpaceFile: 1.json
+useAnnotation: false
+trialCommand: python start.py
+trialCodeDirectory: .
+tuner:
+  name: TPE
+  classArgs:
+    optimize_mode: maximize
+trainingService:
+  platform: local
