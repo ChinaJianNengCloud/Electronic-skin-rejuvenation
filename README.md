@@ -46,3 +46,6 @@ python /project/realesrgan/train.py -opt /project/options/finetune_realesrgan_x4
 项目结果
 存放在百度网盘
 
+网盘账号是从零开始二号，路径在陈胤达/电子皮肤数据和参数，其中原始模型存放一开始项目的生成器和判断器，Electronic-skin-rejuvenation存放项目，其中data存放数据，
+bestprsn是在指标prsn最好的情况下生成器的模型参数，bestssim是ssim指标最好的情况下的生成器参数。
+
