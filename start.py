@@ -4,8 +4,8 @@ import subprocess
 def run_training():
     # 构建原始命令行命令
     command = [
-        'python', 'realesrgan/train.py',
-        '-opt', 'options/finetune_realesrgan_x4plus_pairdata.yml',
+        'python', 'project/realesrgan/train.py',
+        '-opt', 'project/options/finetune_realesrgan_x4plus_pairdata.yml',
 
     ]
 
