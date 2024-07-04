@@ -38,9 +38,8 @@ gt为高质量的图片路径，lq为低质量的图片路径，meta_info为上�
 python /project/realesrgan/train.py -opt /project/options/finetune_realesrgan_x4plus_pairdata.yml --auto_resume
 可以直接运行start.py
 
-## 4.推理使用inference.py
-
-
+## 4.推理
+使用inference.py
 注:在项目根目录中的1.json和config.yml是我使用nni进行最优调参的产物
 
 # 项目结果
