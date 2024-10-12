@@ -8,7 +8,7 @@
 https://github.com/xinntao/Real-RSRGAN
 
 环境安装
-可以通过GitHub的项目进行环境的安装
+可以通过GitHub的项目进行环境的安装，环境的requirements.txt在project文件夹中
 
 # 项目使用
 ## 1.准备元信息 txt
